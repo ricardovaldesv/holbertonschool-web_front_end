@@ -49,6 +49,10 @@ a:link {
     text-decoration: none; /* Elimina la decoración de texto para enlaces visitados */
 }
 
+a:visited {
+    font-style: italic; /* Establece el estilo en cursiva para los enlaces visitados */
+}
+
 a:hover {
     text-decoration: underline; /* Subraya el texto al pasar el cursor */
 }
