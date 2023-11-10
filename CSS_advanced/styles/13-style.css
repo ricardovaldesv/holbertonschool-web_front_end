@@ -39,19 +39,22 @@ body {
 a {
     text-decoration: none;
     color: inherit;
+}
+  
+a[href] {
     text-decoration: none; /* Elimina la decoración de texto predeterminada */
     font-style: italic; /* Pone el texto en cursiva */
-  }
+}
 
-a:visited {
+a[href]:visited {
     text-decoration: none; /* Elimina la decoración de texto para enlaces visitados */
 }
 
-a:hover {
+a[href]:hover {
     text-decoration: underline; /* Subraya el texto al pasar el cursor */
 }
 
-a:active {
+a[href]:active {
     background-color: var(--color-light-grey); /* Establece el color de fondo con la variable color-light-grey */
 }
 
