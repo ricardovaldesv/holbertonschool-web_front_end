@@ -177,7 +177,7 @@ a:active {
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
     background: var(--button-hover-background);
-    transition: var(--transition-duration); /* Animation on button background TASK 32*/
+    transition-duration: var(--transition-duration); /* Animation on button background TASK 32*/
     transition-property: color, background-color; /* Animation on button background TASK 32*/
 }
 
