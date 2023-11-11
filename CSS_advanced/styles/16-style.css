@@ -87,7 +87,7 @@ a:active {
 
 .container {
     width: 960px;
-    margin: 0 auto; /* Auto margin left and right for centering */
+    margin: auto; /* Auto margin left and right for centering */
 }
 
 .visually-hidden {
