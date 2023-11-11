@@ -188,11 +188,6 @@ ul.row {
     list-style: none;
 }
 
-[class^="col-"] {
-    float: left;
-    padding: 0.5em;
-}
-
 .col-1-3 {
     width: 33.33%;
 }
@@ -200,6 +195,12 @@ ul.row {
 .col-1-2 {
     width: 50%;
 }
+
+[class^="col-"] {
+    float: left;
+    padding: 0.5em;
+}
+
 
 .footer-copyright {
     margin: 0;
